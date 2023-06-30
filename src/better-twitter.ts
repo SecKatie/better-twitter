@@ -111,16 +111,21 @@ declare const missleSvg: string;
     const hideRepliesFromVerifiedUsers = () => {
         const tweets = document.querySelectorAll('[data-testid="tweet"]');
         let isFirstTweet = true;
+        let mainTweetAuthorHandle = '';
 
         tweets.forEach((tweet) => {
+            const author = tweet.querySelector('[data-testid="tweet"] [data-testid="User-Name"]');
+            const authorHandle = author?.querySelector('div:nth-child(2) > div > div > a > div > span').textContent;
+            console.log("Author handle: ", authorHandle);
+
             if (isFirstTweet) {
                 isFirstTweet = false;
+                mainTweetAuthorHandle = authorHandle || '';
                 return;
             }
-
-            const author = tweet.querySelector('[data-testid="tweet"] [data-testid="User-Name"]');
+            
             const verifiedBadge = author?.querySelector('[data-testid="icon-verified"]');
-            if (verifiedBadge) {
+            if (verifiedBadge && authorHandle !== mainTweetAuthorHandle) {
                 const tweetContainer = tweet.closest('[data-testid="cellInnerDiv"]');
                 if (tweetContainer instanceof HTMLElement) {
                     tweetContainer.style.display = 'none';

@@ -6,21 +6,21 @@ import postcss from "postcss";
 import { optimize } from "svgo";
 
 const metadata = {
-  name: "Twitter Nuke Button",
-  version: "0.1.0",
+  name: "Better Twitter",
+  version: "0.1.1",
   author: {
     name: "Katie Mulliken",
     email: "katie@mulliken.net",
   },
   description:
-    "Block the author of a bad tweet and all users who liked it using twtools.eu",
+    "Make Twitter into a slightly better place",
   match: ["https://twitter.com/*"],
   grant: ["GM_addStyle"],
 };
 
 const buildConfig = {
-  entryPoints: ["src/twitter-nuke-button.ts"],
-  outfile: `dist/twitter-nuke-button.${metadata.version}.user.js`,
+  entryPoints: ["src/better-twitter.ts"],
+  outfile: `dist/better-twitter.${metadata.version}.user.js`,
   bundle: true,
   loader: { ".ts": "ts" },
   minify: true,
@@ -39,7 +39,7 @@ build(buildConfig)
         { name: "convertShapeToPath", active: false },
       ],
     });
-    const cssFile = readFileSync("src/twitter-nuke-button.css", "utf8");
+    const cssFile = readFileSync("src/better-twitter.css", "utf8");
     postcss([cssnano])
       .process(cssFile, { from: undefined })
       .then((minifiedCss) => {

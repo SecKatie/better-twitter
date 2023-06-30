@@ -11,6 +11,6 @@ This is a simple userscript that I am developing to make Twitter just a little b
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) (or another userscript manager)
 2. Open the "Utilities" tab in Tampermonkey
-3. Copy the URL to the file `twitter-nuke-button.VERSION.user.js` from the [latest release](https://github.com/SecKatie/better-twitter/releases) and paste it next to the "Import from URL" field
+3. Copy the URL to the file `better-twitter.VERSION.user.js` from the [latest release](https://github.com/SecKatie/better-twitter/releases) and paste it next to the "Import from URL" field
 4. Click install
 5. Enjoy!
