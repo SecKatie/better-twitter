@@ -1,0 +1,374 @@
+.button-container {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --speechify-primary-color: #2137fc;
+  --font-family: ABCDiatype;
+  --transitions: none;
+  font-size: 15px;
+  pointer-events: auto;
+  cursor: pointer;
+  scroll-behavior: auto !important;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  border: 0 solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: auto;
+  flex-shrink: 0;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  position: relative;
+  z-index: 0;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+
+.button-vcenter {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --speechify-primary-color: #2137fc;
+  --font-family: ABCDiatype;
+  --transitions: none;
+  font-size: 15px;
+  pointer-events: auto;
+  scroll-behavior: auto !important;
+  cursor: pointer;
+  -webkit-box-align: stretch;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  align-items: stretch;
+  border: 0 solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  min-width: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  position: relative;
+  z-index: 0;
+  overflow: visible;
+  user-select: none;
+  outline-style: none;
+  -webkit-box-pack: center;
+  justify-content: center;
+  min-height: 20px;
+}
+
+.button {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --speechify-primary-color: #2137fc;
+  --font-family: ABCDiatype;
+  --transitions: none;
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-box-direction: normal;
+  user-select: none;
+  scroll-behavior: auto !important;
+  direction: ltr;
+  unicode-bidi: isolate;
+  border: 0 solid black;
+  box-sizing: border-box;
+  font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  min-width: 0px;
+  word-wrap: break-word;
+  line-height: 20px;
+  font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  transition-duration: 0.2s;
+  white-space: nowrap;
+  color: rgb(113, 118, 123);
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  transition-property: color;
+  fill: rgb(113, 118, 123);
+}
+
+.button:hover {
+  color: rgb(29, 161, 242);
+  fill: rgb(29, 161, 242);
+}
+
+.button-icon {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --speechify-primary-color: #2137fc;
+  --font-family: ABCDiatype;
+  --transitions: none;
+  pointer-events: auto;
+  list-style: none;
+  text-align: inherit;
+  cursor: pointer;
+  font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  word-wrap: break-word;
+  line-height: 20px;
+  font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+  -webkit-box-direction: normal;
+  scroll-behavior: auto !important;
+  display: inline-block;
+  height: 1.25em;
+  max-width: 100%;
+  position: relative;
+  vertical-align: text-bottom;
+  user-select: none;
+  width: 1.25em;
+}
+
+.button-icon-size {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --speechify-primary-color: #2137fc;
+  --font-family: ABCDiatype;
+  --transitions: none;
+  pointer-events: auto;
+  list-style: none;
+  text-align: inherit;
+  user-select: none;
+  cursor: pointer;
+  font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  word-wrap: break-word;
+  line-height: 20px;
+  font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+  scroll-behavior: auto !important;
+  -webkit-box-align: stretch;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  align-items: stretch;
+  border: 0 solid black;
+  box-sizing: border-box;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+  min-height: 0px;
+  min-width: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  z-index: 0;
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  display: inline-flex;
+  margin: -8px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  transition-duration: 0.2s;
+  transition-property: background-color, box-shadow;
+  outline-style: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button-svg {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --speechify-primary-color: #2137fc;
+  --font-family: ABCDiatype;
+  --transitions: none;
+  pointer-events: auto;
+  list-style: none;
+  text-align: inherit;
+  cursor: pointer;
+  font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  word-wrap: break-word;
+  line-height: 20px;
+  font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+  -webkit-box-direction: normal;
+  scroll-behavior: auto !important;
+  display: inline-block;
+  height: 1.25em;
+  max-width: 100%;
+  position: relative;
+  vertical-align: text-bottom;
+  user-select: none;
+  width: 1.25em;
+}
+
+.button-text {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --speechify-primary-color: #2137fc;
+  --font-family: ABCDiatype;
+  --transitions: none;
+  pointer-events: auto;
+  cursor: pointer;
+  user-select: none;
+  font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  word-wrap: break-word;
+  line-height: 20px;
+  font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+  scroll-behavior: auto !important;
+  -webkit-box-align: stretch;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  align-items: stretch;
+  border: 0 solid black;
+  box-sizing: border-box;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  display: inline-flex;
+}
+
+.button-text-label-outer {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --speechify-primary-color: #2137fc;
+  --font-family: ABCDiatype;
+  --transitions: none;
+  pointer-events: auto;
+  list-style: none;
+  text-align: inherit;
+  user-select: none;
+  cursor: pointer;
+  font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  word-wrap: break-word;
+  line-height: 20px;
+  font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+  -webkit-box-direction: normal;
+  scroll-behavior: auto !important;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.button-text-label {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --speechify-primary-color: #2137fc;
+  --font-family: ABCDiatype;
+  --transitions: none;
+  pointer-events: auto;
+  list-style: none;
+  text-align: inherit;
+  user-select: none;
+  cursor: pointer;
+  -webkit-box-direction: normal;
+  scroll-behavior: auto !important;
+  border: 0 solid black;
+  box-sizing: border-box;
+  display: inline;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  color: inherit;
+  font: inherit;
+  white-space: inherit;
+  padding-left: 12px;
+  padding-right: 12px;
+  word-wrap: break-word;
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 16px;
+  min-width: calc(1em + 24px);
+}
+
+.button-text-label-inner {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --speechify-primary-color: #2137fc;
+  --font-family: ABCDiatype;
+  --transitions: none;
+  pointer-events: auto;
+  list-style: none;
+  text-align: inherit;
+  user-select: none;
+  cursor: pointer;
+  -webkit-box-direction: normal;
+  scroll-behavior: auto !important;
+  border: 0 solid black;
+  box-sizing: border-box;
+  display: inline;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  color: inherit;
+  font: inherit;
+  white-space: inherit;
+  min-width: 0px;
+  word-wrap: break-word;
+  font-family: inherit;
+}

@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "node build.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "svgo": "^3.0.2",
+    "userscript-metadata-generator": "^0.2.3"
+  }
+}
