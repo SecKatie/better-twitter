@@ -7,7 +7,7 @@ import { optimize } from "svgo";
 
 const metadata = {
   name: "Twitter Nuke Button",
-  version: "0.4.0",
+  version: "0.1.0",
   author: {
     name: "Katie Mulliken",
     email: "katie@mulliken.net",
@@ -20,7 +20,7 @@ const metadata = {
 
 const buildConfig = {
   entryPoints: ["src/twitter-nuke-button.ts"],
-  outfile: "dist/twitter-nuke-button.user.js",
+  outfile: `dist/twitter-nuke-button.${metadata.version}.user.js`,
   bundle: true,
   loader: { ".ts": "ts" },
   minify: true,
